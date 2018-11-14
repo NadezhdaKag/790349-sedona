@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Надежда Кагарлык](https://up.htmlacademy.ru/htmlcss/23/user/790349).
-* Наставник: [Андрей Грачев] (https://htmlacademy.ru/profile/id252055).
+* Наставник: [Андрей Грачев] (https://htmlacademy.ru/profile/id252055 https://github.com/andreysgra).
 
 ---
 
