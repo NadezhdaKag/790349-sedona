@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
     <title>Седона</title>
   </head>
   <body>
@@ -70,15 +71,33 @@
         <h2>Поиск гостиницы в Седоне</h2>
         <p class="appointment-info">Заинтересовались?</p>
         <p class="appointment-info-date"> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <!-- Здесь будет форма -->
+        
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="appointment-item">
+          	Дата заезда
+            <input type="text" name="date" value="" placeholder="24 апреля 2017">
+          </p>
+          <p class="appointment-item">
+          	Дата выезда
+            <input type="text" name="date" value="" placeholder="4 июля 2017">
+          </p>
+          <p class="appointment-item">
+          	Взрослые
+            <input type="number" name="number" min="1" value="" placeholder="2">        
+          	Дети
+            <input type="number" name="number" min="0" value="" placeholder="0">
+          </p>
+          <button class="button" type="submit">Найти</button>
+        </form> 
+        	
       </section>
     </main>
     <footer class="main-footer">
       <p class="footer-contacts">#visitSEDONA</p>
       <div class="footer-social">
-        <a class="social-button" href="#">Твиттер</a>
-        <a class="social-button" href="#">Фейсбук</a>
-        <a class="social-button" href="#">Ютуб</a>
+        <a class="social-button visually-hidden" href="#">страница Седоны в Твиттер</a>
+        <a class="social-button visually-hidden" href="#">страница Седоны в Фейсбук</a>
+        <a class="social-button visually-hidden" href="#">страница Седоны в Ютуб</a>
       </div>
       <p class="footer-copyright">
         <b>Website by</b> <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy"></a>
