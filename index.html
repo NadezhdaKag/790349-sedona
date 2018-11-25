@@ -15,7 +15,7 @@
           <li><a href="info.html">Информация</a></li>
           <li><a href="photo.html">Фото и видео</a></li>
           <li><a href="map.html">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -68,10 +68,10 @@
         </ol>
       </section>
       <section class="appointment">
-        <h2>Поиск гостиницы в Седоне</h2>
+        
         <p class="appointment-info">Заинтересовались?</p>
         <p class="appointment-info-date"> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        
+        <button type="button" name="search">Поиск гостиницы в Седоне</button>
         <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
           <p class="appointment-item">
           	Дата заезда
@@ -80,12 +80,17 @@
           <p class="appointment-item">
           	Дата выезда
             <input type="text" name="date" value="" placeholder="4 июля 2017">
+            <button type="button" name="calendar"></button>
           </p>
           <p class="appointment-item">
           	Взрослые
-            <input type="number" name="number" min="1" value="" placeholder="2">        
+          	<button type="button" name="minus" alt="минус"></button>
+            <input type="number" name="number" min="1" value="" placeholder="2"> 
+            <button type="button" name="plus" alt="плюс"></button>     
           	Дети
+          	<button type="button" name="minus" alt="минус"></button>
             <input type="number" name="number" min="0" value="" placeholder="0">
+            <button type="button" name="plus" alt="плюс"></button>
           </p>
           <button class="button" type="submit">Найти</button>
         </form> 
