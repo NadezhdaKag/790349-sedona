@@ -2,6 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+   <link href="css/normalize.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title>Отели Седона</title>
   </head>
@@ -15,7 +17,7 @@
           <li><a href="info.html">Информация</a></li>
           <li><a href="photo.html">Фото и видео</a></li>
           <li><a href="map.html">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li><a class="active-hotels" href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -26,7 +28,7 @@
           action="https://echo.htmlacademy.ru">    
         <fieldset>
           <legend>Инфраструктура:</legend>
-          <ul>
+          <ul class="infrastructure">
             <li>
               <input type="checkbox" name="pool" id="filter-pool" checked>
               <label for="filter-pool">
@@ -49,7 +51,7 @@
       </fieldset>
       <fieldset>
         <legend>Тип жилья:</legend>
-        <ul>
+        <ul class="type-house">
           <li>
             <input type="checkbox" name="hotel" id="type-hotel" checked>
             <label for="type-hotel">
@@ -84,12 +86,12 @@
             </div>
             <div class="catalog-item-info">
               <h3>
-                <a href="catalog-item.html">Amara Resort &amp; Spa</a>
+                <a class="name-hotel" href="catalog-item.html">Amara Resort &amp; Spa</a>
               </h3>
             <div class="catalog-item-detail">
               <div class="catalog-item-hotel">
                 <p>Гостиница</p>
-                <a href="#">Подробнее</a>  
+                <a class="detail" href="#">Подробнее</a>  
               </div>   
               <div class="catalog-item-price">
                 <p>от 4000 Р.</p>
@@ -101,7 +103,7 @@
               <span class="catalog-item-stars"></span>
               <span class="catalog-item-stars"></span>
               <span class="catalog-item-stars"></span>
-              <p>Рейтинг: 8,5</p>
+              <p class="rating">Рейтинг: 8,5</p>
             </div>
           </div>
          </li>
@@ -114,12 +116,12 @@
 
             <div class="catalog-item-info">
               <h3>
-                <a href="catalog-item.html">Desert Quail Inn</a>
+                <a class="name-hotel" href="catalog-item.html">Desert Quail Inn</a>
               </h3>
             <div class="catalog-item-detail">
               <div class="catalog-item-hotel">
                 <p>Мотель</p>
-                <a href="#">Подробнее</a>  
+                <a class="detail" href="#">Подробнее</a>  
               </div>   
               <div class="catalog-item-price">
                 <p>от 3000 Р.</p>
@@ -130,7 +132,7 @@
               <span class="catalog-item-stars"></span>
               <span class="catalog-item-stars"></span>
               <span class="catalog-item-stars"></span>
-              <p>Рейтинг: 8,9</p>
+              <p class="rating">Рейтинг: 8,9</p>
             </div>
           </div>
          </li>  
@@ -143,12 +145,12 @@
 
             <div class="catalog-item-info">
               <h3>
-                <a href="catalog-item.html">Villas at Poco Diablo</a>
+                <a class="name-hotel" href="catalog-item.html">Villas at Poco Diablo</a>
               </h3>
             <div class="catalog-item-detail">
               <div class="catalog-item-hotel">
                 <p>Апартаменты</p>
-                <a href="#">Подробнее</a>  
+                <a class="detail" href="#">Подробнее</a>  
               </div>   
               <div class="catalog-item-price">
                 <p>от 2000 Р.</p>
@@ -158,7 +160,7 @@
             <div class="catalog-item-rating">
               <span class="catalog-item-stars"></span>
               <span class="catalog-item-stars"></span>
-              <p>Рейтинг: 8,5</p>
+              <p class="rating">Рейтинг: 8,5</p>
             </div>
           </div>
          </li>
@@ -174,7 +176,7 @@
         <a class="social-button visually-hidden" href="#">страница Седоны в Ютуб</a>
       </div>
       <p class="footer-copyright">
-        <b>Website by</b> <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy"></a>
+        <b>Website by</b> <a class="button-academy" class="copyright" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy"></a>
       </p>
     </footer>
   </body>
