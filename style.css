@@ -208,14 +208,15 @@ input[type="text"]{
   text-transform: uppercase;
   font-weight: 700;
 } 
-svg {
+.button-academy svg {
+  fill: #231f20;
   width: 115px;
   height: 41px;
 }
-svg:focus {
+.button-academy svg:hover {
   fill: #81b3d2;
 }
-svg:active {
+.button-academy svg:active {
   fill: #bdbbbc;
 }
 .visually-hidden {
