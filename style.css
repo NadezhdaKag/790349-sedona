@@ -14,7 +14,7 @@ a {
 }
 .site-navigation  {
   line-height: 26px;
-  font-weight: 700; 
+  font-weight: 700;
   text-align: center;
   text-decoration: none;
   list-style: none;
@@ -34,10 +34,12 @@ a {
 .name-hotel {
   line-height: 26px;
   font-weight: 700;
-  color: #000000; 
+  font-size: 21px;
+  color: #000000;
 }
 .footer-contacts {
   line-height: 26px;
+  font-size: 21px;
   font-weight: 700;
   color: #000000;
   text-align: center;
@@ -45,29 +47,29 @@ a {
 .appointment-item {
   line-height: 26px;
   font-weight: 700;
-  color: #000000; 
+  color: #000000;
 }
 .search {
   line-height: 26px;
   font-weight: 700;
-  color: #000000; 
+  color: #000000;
 }
 .info {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  color: #000000; 
+  color: #000000;
   text-align: center;
 }
 .services-item p {
   color: #333333;
-} 
+}
 .features {
-  text-align: center;	
+  text-align: center;
 }
 .features p{
-  color: #333333; 
-} 
+  color: #333333;
+}
 .feature-item p {
   color: #333333;
 }
@@ -79,7 +81,7 @@ a {
 .appointment-info {
   line-height: 36px;
   font-size: 30px;
-  text-align: center;	
+  text-align: center;
 }
 .appointment-item {
   line-height: 21px;
@@ -88,14 +90,14 @@ a {
   font-size: 16px;
 }
 .footer-copyright {
-  text-align: center; 
+  text-align: center;
 }
 .footer-copyright b {
-  font-weight: 400;	
+  font-weight: 400;
 }
 
 a.active-hotels {
-color: #766357;	
+color: #766357;
 }
 .services-list {
   list-style: none;
@@ -138,8 +140,8 @@ color: #766357;
   text-transform: uppercase;
   background-color: #81b3d2;
   border: none;
-  
-  color: #ffffff;  
+
+  color: #ffffff;
 }
 .find {
   width: 458px;
@@ -156,13 +158,13 @@ color: #766357;
   color: rgba(255, 255, 255, 0.3);
 }
 input[type="text"] {
-  background-color: #f2f2f2;	
+  background-color: #f2f2f2;
 }
 input[type="text"]:hover {
-  background-color: #ebebeb;	
+  background-color: #ebebeb;
 }
 input[type="text"]:focus {
-  background-color: #ffffff;	
+  background-color: #ffffff;
 }
 .social-button {
   background-color: #81b3d2;
@@ -195,11 +197,11 @@ a.button:active {
 a.detail:hover {
   background-color: #669ec0;
   color: #ffffff;
-} 
+}
 a.detail:active {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.3);
-} 
+}
 input[type="text"]{
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
@@ -207,16 +209,16 @@ input[type="text"]{
   color: #000000;
   text-transform: uppercase;
   font-weight: 700;
-} 
+}
 .button-academy svg {
   fill: #231f20;
   width: 115px;
   height: 41px;
 }
-.button-academy svg:hover {
+.button-academy:hover svg {
   fill: #81b3d2;
 }
-.button-academy svg:active {
+.button-academy:active svg {
   fill: #bdbbbc;
 }
 .visually-hidden {
@@ -227,5 +229,75 @@ input[type="text"]{
   margin: -1px;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header-logo {
+  display: flex;
+
+}
+.logo {
+  background-image: url(img/background-photo.png);
+
+}
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  min-height: 56px;
+
+}
+
+.user-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-header {
+  display: flex;
+
+}
+.appointment-info {
+  display: flex;
+
+}
+.catalog-item {
+  display: flex;
+  margin-left: 32px;
 
 
+}
+.catalog-item-info {
+  margin-left: 30px;
+padding: ;
+}
+.catalog-item-detail {
+  display: flex;
+
+
+}
+.catalog-item-hotel {
+	width: 110px;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-contacts {
+  padding-left: 132px;
+}
+.footer-copyright {
+  padding-right: 101px;
+}
+/*.features-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+ }
+.feature-item {
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
