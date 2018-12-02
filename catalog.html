@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <title>Отели Седона</title>
 </head>
 
@@ -77,6 +77,7 @@
           <button type="submit">Показать</button>
         </form>
       </section>
+      <div class="sorting"></div>
       <section class="catalog">
         <h2 class="visually-hidden">Список отелей</h2>
         <ul class="catalog-list">
@@ -86,6 +87,7 @@
                 <img src="img/amara-resort-spa.jpg" width="135" height="90" alt="Гостиница Amara Resort &amp; Spa">
               </a>
             </div>
+
             <div class="catalog-item-info">
               <h3>
                 <a class="name-hotel" href="catalog-item.html">Amara Resort &amp; Spa</a>
@@ -100,14 +102,17 @@
                   <a class="button" href="#">Забронировать</a>
                 </div>
               </div>
-              <div class="catalog-item-rating">
-                <span class="catalog-item-stars"></span>
-                <span class="catalog-item-stars"></span>
-                <span class="catalog-item-stars"></span>
-                <span class="catalog-item-stars"></span>
-                <p class="rating">Рейтинг: 8,5</p>
-              </div>
             </div>
+                <div class="catalog-item-rating">
+                  <div class="catalog-item-stars">
+                    <span class="stars"></span>
+                    <span class="stars"></span>
+                    <span class="stars"></span>
+                    <span class="stars"></span>
+                  </div>
+                  <p class="rating">Рейтинг: 8,5</p>
+                </div>
+
           </li>
           <li class="catalog-item">
             <div class="catalog-item-image">
@@ -130,13 +135,16 @@
                   <a class="button" href="#">Забронировать</a>
                 </div>
               </div>
+            </div>
               <div class="catalog-item-rating">
-                <span class="catalog-item-stars"></span>
-                <span class="catalog-item-stars"></span>
-                <span class="catalog-item-stars"></span>
+                <div class="catalog-item-stars">
+                  <span class="stars"></span>
+                  <span class="stars"></span>
+                  <span class="stars"></span>
+                </div>
                 <p class="rating">Рейтинг: 8,9</p>
               </div>
-            </div>
+
           </li>
           <li class="catalog-item">
             <div class="catalog-item-image">
@@ -159,12 +167,14 @@
                   <a class="button" href="#">Забронировать</a>
                 </div>
               </div>
+            </div>
               <div class="catalog-item-rating">
-                <span class="catalog-item-stars"></span>
-                <span class="catalog-item-stars"></span>
+                <div class="catalog-item-stars">
+                  <span class="stars"></span>
+                  <span class="stars"></span>
+                </div>
                 <p class="rating">Рейтинг: 8,5</p>
               </div>
-            </div>
           </li>
         </ul>
       </section>
@@ -186,6 +196,7 @@
       </p>
     </footer>
   </div>
+
 </body>
 
 </html>
