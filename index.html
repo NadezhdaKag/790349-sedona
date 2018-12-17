@@ -37,10 +37,12 @@
         <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         <ol class="features-list">
           <li class="feature-item">
-            <h3>Настоящий городок</h3>
-            <p class="feature-item-number">— №1 —</p>
-            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-              <div class="img-1"><img src="img/layer-10.jpg" width="800" height="256" alt="Фото города"></div>
+            <div class="features-description">
+              <h3>Настоящий городок</h3>
+              <p class="feature-item-number">— №1 —</p>
+              <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+              <div class="features-image-wrapper"><img src="img/layer-10.jpg" width="800" height="256" alt="Фото города"></div>
             <ul class="services-list">
               <li class="services-item">
                 <h4>Жильё</h4>
@@ -57,22 +59,25 @@
             </ul>
           </li>
           <li class="feature-item">
-            <div class="img-2"><img src="img/layer-5.jpg" width="800" height="256" alt="Фото моста дьявола"></div>
-            <h3>Там есть <br>Мост дьявола</h3>
-            <p class="feature-item-number">— №2 —</p>
-            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            <div class="features-image-wrapper"><img src="img/layer-5.jpg" width="800" height="256" alt="Фото моста дьявола"></div>
+
+            <div class="features-description">
+              <h3>Там есть Мост дьявола</h3>
+              <p class="feature-item-number">— №2 —</p>
+              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>
           </li>
-          <li class="feature-item">
+          <li class="feature-item-gray">
             <h3>Небольшая площадь</h3>
             <p class="feature-item-number">— №3 —</p>
             <p>Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="feature-item">
+          <li class="feature-item-gray">
             <h3>Красивая дорога</h3>
             <p class="feature-item-number">— №4 —</p>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="feature-item">
+          <li class="feature-item-gray">
             <h3>Мало туристов</h3>
             <p class="feature-item-number">— №5 —</p>
             <p>Большинство едет в гранд каньон и толпится там</p>
@@ -82,13 +87,13 @@
       </section>
       <section class="appointment">
         <p class="appointment-info">Заинтересовались?</p>
-        <p class="appointment-info-date"> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <p class="appointment-info-date"> Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <button type="button" class="search" name="search">Поиск гостиницы в Седоне</button>
         <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
           <p class="appointment-item">
             Дата заезда:
             <input type="text" name="date" value="" placeholder="24 апреля 2017">
-            <!---<button type="button" name="calendar" alt="календарь"></button>-->
+            <!---  <button type="button" name="calendar" alt="календарь"></button>-->
           </p>
           <p class="appointment-item">
             Дата выезда:
@@ -96,14 +101,14 @@
           <!---  <button type="button" name="calendar" alt="календарь"></button>-->
           </p>
           <p class="appointment-item">
-            Взрослые
-            <button type="button" name="minus" alt="минус"></button>
+            <span class="appointment-item-type">Взрослые:</span>
+            <button type="button" class="buttom-minus" name="minus" alt="минус"></button>
             <input type="text" name="number" value="" placeholder="2">
-            <button type="button" name="plus" alt="плюс"></button>
-            Дети
-            <button type="button" name="minus" alt="минус"></button>
+            <button type="button" class="buttom-plus" name="plus" alt="плюс"></button>
+            <span class="appointment-item-type">Дети:</span>
+            <button type="button" class="buttom-minus" name="minus" alt="минус"></button>
             <input type="text" name="number" value="" placeholder="0">
-            <button type="button" name="plus" alt="плюс"></button>
+            <button type="button" class="buttom-plus" name="plus" alt="плюс"></button>
           </p>
           <button class="find" type="submit">Найти</button>
         </form>
