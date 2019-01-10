@@ -1,4 +1,3 @@
-// var searchHotels = document.querySelector(".search-hotels");
 var formSearch = document.querySelector(".search-form");
 var btnSearch = document.getElementById("btn-search");
 
